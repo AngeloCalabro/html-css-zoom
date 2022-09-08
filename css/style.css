@@ -3,9 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Lato', 'Helvetica', 'Arial' !important;
-    text-align: center;
-    font-size: 12px;
+
 }
 
 :root {
@@ -21,6 +19,9 @@
 body {
     position: relative;
     height: 100vh;
+    font-family: 'Lato', 'Helvetica', 'Arial' !important;
+    text-align: center;
+    font-size: 12px;
 }
 
 .flexbox {
@@ -63,8 +64,6 @@ header.flexbox {
 /* main */
 div.flexbox {
     width: 100%;
-    height: calc(100vh - 90px);
-    margin-top: 30px;
 }
 
 div.flexbox {
@@ -76,7 +75,8 @@ div.flexbox {
 
 article {
     position: relative;
-    flex-basis: calc((100% - ((2px*2)*7)) / 7);
+    min-width: 140px;
+    max-width: 170px;
     margin: 2px;
 }
 
