@@ -26,7 +26,6 @@ body {
 
 .flexbox {
     display: flex;
-    align-items: center;
 }
 
 ul,
@@ -51,6 +50,7 @@ header {
 
 header.flexbox {
     justify-content: flex-end;
+    align-items: center;
 }
 
 .box-header {
@@ -76,7 +76,7 @@ div.flexbox {
 article {
     position: relative;
     min-width: 140px;
-    max-width: 170px;
+    max-width: 167px;
     margin: 2px;
 }
 
@@ -88,7 +88,7 @@ article {
 .box-name {
     position: absolute;
     bottom: 5px;
-    left: 0;
+    left: 0px;
     color: var(--white);
     background-color: var(--light-gray);
     padding: 3px;
@@ -101,7 +101,7 @@ footer {
     bottom: 0;
     left: 0;
     background-color: var(--light-black);
-    height: 60px;
+    height: 70px;
 }
 
 footer.flexbox {
@@ -112,17 +112,20 @@ footer.flexbox {
 .end-meet {
     color: red;
     background-color: var(--dark-gray);
-    line-height: 60px;
+    line-height: 70px;
+    padding: 0 15px;
 }
 
-.box-left {
-    width: 10%;
+footer i {
+    font-size: 25px;
+    padding-top: 10px;
 }
 
-.box-center {
-    width: 80%;
+li div {
+    padding-top: 10px;
+
 }
 
-.box-right {
-    width: 10%;
+.green {
+    color: var(--green);
 }
