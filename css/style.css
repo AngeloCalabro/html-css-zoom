@@ -16,6 +16,12 @@
     --light-gray: rgba(99, 112, 126, 0.5);
 }
 
+.debug {
+    /* rimuovere */
+    border: 1px solid white;
+}
+
+
 body {
     position: relative;
     height: 100vh;
@@ -38,7 +44,6 @@ body {
 
 ul {
     list-style: none;
-    padding: 5px;
 }
 
 li {
@@ -49,8 +54,6 @@ li {
 a {
     color: white;
     text-decoration: none;
-
-
 }
 
 /* header */
@@ -68,8 +71,6 @@ header.flexbox {
     justify-content: flex-end;
     align-items: center;
     margin-left: -25px;
-
-
 }
 
 .box-header {
@@ -80,7 +81,7 @@ header.flexbox {
     border-radius: 10px;
 }
 
-.box-header:hover {
+.box-header:active {
     box-shadow: 0 1px 0 1px rgba(0, 96, 250, 0.5);
     background-color: var(--light-gray);
     border: 1 solid black;
@@ -157,21 +158,74 @@ footer i {
 
 li div {
     padding-top: 10px;
-
 }
 
 .green {
     color: var(--green);
 }
 
-li:hover {
+li:active {
     background-color: var(--light-gray);
     border: 1 solid black;
     font-size: 10px;
 }
 
-div.end-meet:hover {
+div.end-meet:active {
     background-color: var(--light-gray);
-    border: 1 solid black;
+    border: 1 solid var(--black);
     font-size: 10px;
+}
+
+i.fa-chevron-up {
+    color: var(--white);
+    font-size: 12px;
+}
+
+li.list-shadow-link {
+    padding: 5px;
+    color: var(--white);
+    font-size: 14px;
+}
+
+.box-absolute-link {
+    position: absolute;
+    bottom: 80px;
+    left: 700;
+    padding: 10px;
+}
+
+li.list-shadow-parla {
+    padding: 5px;
+    list-style-type: circle;
+    color: var(--white);
+    font-size: 14px;
+}
+
+.box-absolute-parla {
+    position: absolute;
+    bottom: 80px;
+    left: 0;
+    padding: 10px;
+}
+
+li.list-shadow-video {
+    padding: 5px;
+    list-style-type: circle;
+    color: var(--white);
+    font-size: 14px;
+}
+
+.box-absolute-video {
+    position: absolute;
+    bottom: 80px;
+    left: 50px;
+    padding: 10px;
+}
+
+ul.box-shadow {
+    display: none;
+}
+
+#menu:hover .box-shadow {
+    display: block;
 }
