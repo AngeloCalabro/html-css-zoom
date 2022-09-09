@@ -91,6 +91,7 @@ header.flexbox {
 
 main {
     width: 100%;
+    margin: auto;
     height: calc(100% - 100px);
     overflow-y: auto;
 }
