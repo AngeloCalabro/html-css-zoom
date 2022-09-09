@@ -16,6 +16,14 @@
     --light-gray: rgba(99, 112, 126, 0.5);
 }
 
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
 /* .debug {rimuovere
 border: 1px solid white;
 } */
