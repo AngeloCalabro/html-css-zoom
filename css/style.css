@@ -133,6 +133,7 @@ article {
     background-color: var(--light-gray);
     padding: 3px;
     display: none;
+    border-radius: 10px;
 }
 
 .image-box:hover .box-name {
