@@ -24,6 +24,16 @@
     background: #555;
 }
 
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
 /* .debug {rimuovere
 border: 1px solid white;
 } */
@@ -192,7 +202,7 @@ i.fa-chevron-up {
 }
 
 /* hover e active */
-li:active {
+li:hover {
     background-color: var(--light-gray);
     border: 1 solid black;
     border-radius: 10px;
